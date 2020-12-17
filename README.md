@@ -30,6 +30,8 @@ This is a backend for a BLOG which saves data in a mongoDb. Basic crud operation
        2. getById
        3. addBlogs
      - For user defined data just change data as you want in the above mentioned functions
+       - for example u can change the particular id you want to find
+         - { blogId: "desired blog id" }
 
 8. A default blog is added at the start as
    - blog { \_id: 5fdae50da69ff71a81c08b7c,
